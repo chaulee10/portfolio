@@ -13,14 +13,17 @@
 }
 .worksTitle{
     margin: 1rem 0; 
-    font-size: 3rem;   
+    font-size: 3rem; 
+    padding: 5rem;  
 }
-.worksDesc{
+
+/* .worksDesc{
     margin: 0 2rem;
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
-}
+} */
+
 .worksImgs{
     display: flex;
     align-items: center;

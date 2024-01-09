@@ -7,14 +7,14 @@
     position: relative;
 }
 
-.headshot {
+/* .headshot {
     position: absolute;
     top: 4rem;
     right: 4rem;
     z-index: -1;
     object-fit: cover;
     height: 60vh;
-}
+} */
 
 .introContent {
     height: 100vh;
@@ -49,29 +49,32 @@
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    cursor: grab;
+
 }
 
 .btnImg {
     object-fit: cover;
     margin: 0 0.25rem;
     height: 1rem;
-    cursor: pointer;
-
 }
 
 @media screen and (max-width: 840px) {
-    .bg{
+    .bg {
         right: -10vw;
     }
-    .introContent{
-        font-size: 10vw ;
+
+    .introContent {
+        font-size: 10vw;
     }
-    .hello{
+
+    .hello {
         font-size: 4.5vw;
     }
 }
+
 @media screen and (max-width: 480px) {
-    .bg{
+    .bg {
         right: -20vw;
     }
 }
